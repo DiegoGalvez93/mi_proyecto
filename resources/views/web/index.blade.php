@@ -393,13 +393,11 @@
         <!-- row -->
 
         <!-- INICIO -->
-        <div class="col-xl-6 col-lg-12 col-sm-12 col-xxl-12">
+        <div class="row justify-content-end col-sm col-xxl-10">
             <div class="card">
                 <div class="card-body">
                     <div class="text-center">
-                        <img src="./images/users/vialibretravel.jpg" class="rounded-circle" alt="">
-                        <h5 class="mt-3 mb-1">Ana Liem</h5>
-                        <p class="m-0">Senior Manager</p>
+                        <img src="./images/users/vialibreravel.jpg" class="rounded-circle" alt="">
                         <!-- <a href="javascript:void()" class="btn btn-sm btn-warning">Send Message</a> -->
                     </div>
                 </div>

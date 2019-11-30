@@ -31,7 +31,7 @@
                 <b class="logo-abbr"><img src="images/logo.png" alt=""> </b>
                 <span class="logo-compact"><img src="./images/logo-compact.png" alt=""></span>
                 <span class="brand-title">
-                    <img src="images/logo-text.png" alt="">
+                    <img src="images/users/letras.png" alt="">
                 </span>
             </a>
         </div>
@@ -176,7 +176,7 @@
                     </li>
                     <li class="icons dropdown d-none d-md-flex">
                         <a href="javascript:void(0)" class="log-user"  data-toggle="dropdown">
-                            <span>English</span>  <i class="fa fa-angle-down f-s-14" aria-hidden="true"></i>
+                            <span>Idioma</span>  <i class="fa fa-angle-down f-s-14" aria-hidden="true"></i>
                         </a>
                         <div class="drop-down dropdown-language animated fadeIn  dropdown-menu">
                             <div class="dropdown-content-body">
@@ -225,35 +225,62 @@
     <div class="nk-sidebar">
         <div class="nk-nav-scroll">
             <ul class="metismenu" id="menu">
-                <li class="nav-label">Dashboard</li>
-                <li>
+                <li class="nav-label">Menú</li>
+                <li> <!-- Menu Usuarios -->
                     <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                        <i class="icon-speedometer menu-icon"></i><span class="nav-text">Dashboard</span>
+                        <i class="icon-people menu-icon"></i><span class="nav-text">Usuarios</span>
                     </a>
                     <ul aria-expanded="false">
-                        <li><a href="./index.html">Home 1</a></li>
-                        <!-- <li><a href="./index-2.html">Home 2</a></li> -->
+                      <li><a href="./index.html">Editar Ususario</a></li>
+                      <li><a href="./index.html">Lista de Usuarios</a></li>
                     </ul>
                 </li>
-                <li class="mega-menu mega-menu-sm">
+                <li> <!-- Menu Guias -->
                     <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                        <i class="icon-globe-alt menu-icon"></i><span class="nav-text">Layouts</span>
+                        <i class="icon-direction menu-icon"></i><span class="nav-text">Guias</span>
                     </a>
                     <ul aria-expanded="false">
-                        <li><a href="./layout-blank.html">Blank</a></li>
-                        <li><a href="./layout-one-column.html">One Column</a></li>
-                        <li><a href="./layout-two-column.html">Two column</a></li>
-                        <li><a href="./layout-compact-nav.html">Compact Nav</a></li>
-                        <li><a href="./layout-vertical.html">Vertical</a></li>
-                        <li><a href="./layout-horizontal.html">Horizontal</a></li>
-                        <li><a href="./layout-boxed.html">Boxed</a></li>
-                        <li><a href="./layout-wide.html">Wide</a></li>
-
-
-                        <li><a href="./layout-fixed-header.html">Fixed Header</a></li>
-                        <li><a href="layout-fixed-sidebar.html">Fixed Sidebar</a></li>
+                      <li><a href="./index.html">Editar Guias</a></li>
+                      <li><a href="./index.html">Lista de Guias</a></li>
                     </ul>
                 </li>
+                <li> <!-- Menu Viajes -->
+                    <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                        <i class="icon-camera menu-icon"></i><span class="nav-text">Viajes</span>
+                    </a>
+                    <ul aria-expanded="false">
+                      <li><a href="./index.html">Editar Viajes</a></li>
+                      <li><a href="./index.html">Lista de Viajes</a></li>
+                    </ul>
+                </li>
+                <li> <!-- Menu Tour -->
+                    <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                        <i class="icon-map menu-icon"></i><span class="nav-text">Tour</span>
+                    </a>
+                    <ul aria-expanded="false">
+                      <li><a href="./index.html">Editar Tours</a></li>
+                      <li><a href="./index.html">Lista de Tours</a></li>
+                    </ul>
+                </li>
+                <li> <!-- Menu Descuentos -->
+                    <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                        <i class="icon-badge menu-icon"></i><span class="nav-text">Descuentos</span>
+                    </a>
+                    <ul aria-expanded="false">
+                      <li><a href="./index.html">Editar Descuentos</a></li>
+                      <li><a href="./index.html">Lista de Descuentos</a></li>
+                    </ul>
+                </li>
+                <li> <!-- Menu Compras -->
+                    <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                        <i class="icon-basket menu-icon"></i><span class="nav-text">Compras</span>
+                    </a>
+                    <ul aria-expanded="false">
+                      <li><a href="./index.html">Hacer Compra</a></li>
+                      <li><a href="./index.html">Lista de Compras</a></li>
+                    </ul>
+                </li>
+
                 <li class="nav-label">Apps</li>
                 <li>
                     <a class="has-arrow" href="javascript:void()" aria-expanded="false">
@@ -287,89 +314,7 @@
                         <li><a href="./chart-peity.html">Peity</a></li>
                     </ul>
                 </li>
-                <li class="nav-label">UI Components</li>
-                <li>
-                    <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                        <i class="icon-grid menu-icon"></i><span class="nav-text">UI Components</span>
-                    </a>
-                    <ul aria-expanded="false">
-                        <li><a href="./ui-accordion.html">Accordion</a></li>
-                        <li><a href="./ui-alert.html">Alert</a></li>
-                        <li><a href="./ui-badge.html">Badge</a></li>
-                        <li><a href="./ui-button.html">Button</a></li>
-                        <li><a href="./ui-button-group.html">Button Group</a></li>
-                        <li><a href="./ui-cards.html">Cards</a></li>
-                        <li><a href="./ui-carousel.html">Carousel</a></li>
-                        <li><a href="./ui-dropdown.html">Dropdown</a></li>
-                        <li><a href="./ui-list-group.html">List Group</a></li>
-                        <li><a href="./ui-media-object.html">Media Object</a></li>
-                        <li><a href="./ui-modal.html">Modal</a></li>
-                        <li><a href="./ui-pagination.html">Pagination</a></li>
-                        <li><a href="./ui-popover.html">Popover</a></li>
-                        <li><a href="./ui-progressbar.html">Progressbar</a></li>
-                        <li><a href="./ui-tab.html">Tab</a></li>
-                        <li><a href="./ui-typography.html">Typography</a></li>
-                    <!-- </ul>
-                </li>
-                <li>
-                    <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                        <i class="icon-layers menu-icon"></i><span class="nav-text">Components</span>
-                    </a>
-                    <ul aria-expanded="false"> -->
-                        <li><a href="./uc-nestedable.html">Nestedable</a></li>
-                        <li><a href="./uc-noui-slider.html">Noui Slider</a></li>
-                        <li><a href="./uc-sweetalert.html">Sweet Alert</a></li>
-                        <li><a href="./uc-toastr.html">Toastr</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="widgets.html" aria-expanded="false">
-                        <i class="icon-badge menu-icon"></i><span class="nav-text">Widget</span>
-                    </a>
-                </li>
-                <li class="nav-label">Forms</li>
-                <li>
-                    <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                        <i class="icon-note menu-icon"></i><span class="nav-text">Forms</span>
-                    </a>
-                    <ul aria-expanded="false">
-                        <li><a href="./form-basic.html">Basic Form</a></li>
-                        <li><a href="./form-validation.html">Form Validation</a></li>
-                        <li><a href="./form-step.html">Step Form</a></li>
-                        <li><a href="./form-editor.html">Editor</a></li>
-                        <li><a href="./form-picker.html">Picker</a></li>
-                    </ul>
-                </li>
-                <li class="nav-label">Table</li>
-                <li>
-                    <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                        <i class="icon-menu menu-icon"></i><span class="nav-text">Table</span>
-                    </a>
-                    <ul aria-expanded="false">
-                        <li><a href="./table-basic.html" aria-expanded="false">Basic Table</a></li>
-                        <li><a href="./table-datatable.html" aria-expanded="false">Data Table</a></li>
-                    </ul>
-                </li>
-                <li class="nav-label">Pages</li>
-                <li>
-                    <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                        <i class="icon-notebook menu-icon"></i><span class="nav-text">Pages</span>
-                    </a>
-                    <ul aria-expanded="false">
-                        <li><a href="./page-login.html">Login</a></li>
-                        <li><a href="./page-register.html">Register</a></li>
-                        <li><a href="./page-lock.html">Lock Screen</a></li>
-                        <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Error</a>
-                            <ul aria-expanded="false">
-                                <li><a href="./page-error-404.html">Error 404</a></li>
-                                <li><a href="./page-error-403.html">Error 403</a></li>
-                                <li><a href="./page-error-400.html">Error 400</a></li>
-                                <li><a href="./page-error-500.html">Error 500</a></li>
-                                <li><a href="./page-error-503.html">Error 503</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
+                
             </ul>
         </div>
     </div>
@@ -393,11 +338,12 @@
         <!-- row -->
 
         <!-- INICIO -->
-        <div class="row justify-content-end col-sm col-xxl-10">
+        <div class="row justify-content-end col-sm col-xxl-9">
             <div class="card">
                 <div class="card-body">
                     <div class="text-center">
-                        <img src="./images/users/vialibreravel.jpg" class="rounded-circle" alt="">
+                        <img src="./images/users/bienvenido.png" alt="">
+                        <h5 class="mt-3 mb-3">Usuario</h5>
                         <!-- <a href="javascript:void()" class="btn btn-sm btn-warning">Send Message</a> -->
                     </div>
                 </div>

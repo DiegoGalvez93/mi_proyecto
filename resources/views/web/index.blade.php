@@ -1,4 +1,4 @@
-@extends('layout.home')
+@extends('layout.principal')
 
 
 @section('content')
@@ -196,7 +196,7 @@
                             <div class="dropdown-content-body">
                                 <ul>
                                     <li>
-                                        <a href="app-profile.html"><i class="icon-user"></i> <span>Profile</span></a>
+                                        <a href="app-profile.html"><i class="icon-user"></i> </a>
                                     </li>
                                     <li>
                                         <a href="email-inbox.html"><i class="icon-envelope-open"></i> <span>Inbox</span> <div class="badge gradient-3 badge-pill badge-primary">3</div></a>
@@ -314,7 +314,7 @@
                         <li><a href="./chart-peity.html">Peity</a></li>
                     </ul>
                 </li>
-                
+
             </ul>
         </div>
     </div>
